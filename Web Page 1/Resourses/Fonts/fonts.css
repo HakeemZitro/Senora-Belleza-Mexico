@@ -1,0 +1,212 @@
+/* ----- RobotoSerif ----- */
+    /*
+    font-variation-settings: "GRAD" 88;
+    font-variation-settings: "opsz" 64;
+    */
+@font-face {
+    font-family: RobotoSerif;
+    src: url(RobotoSerif-Normal-VariableFont_GRAD\,opsz\,wdth\,wght.ttf) format(truetype);
+    font-weight: 100 900;
+    font-stretch: 50 150;
+    font-style: normal;
+}
+@font-face {
+    font-family: RobotoSerif;
+    src: url(RobotoSerif-Italic-VariableFont_GRAD\,opsz\,wdth\,wght.ttf) format(truetype);
+    font-weight: 100 900;
+    font-stretch: 50 150;
+    font-style: italic;
+}
+
+
+/* ----- Montserrat ----- */
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Normal-VariableFont_wght.ttf) format(truetype);
+    font-weight: 100 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Italic-VariableFont_wght.ttf) format(truetype);
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+
+/* ----- Poltawski ----- */
+@font-face {
+    font-family: Poltawski;
+    src: url(PoltawskiNowy-Normal-VariableFont_wght.ttf) format(truetype);
+    font-weight: 400 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Poltawski;
+    src: url(PoltawskiNowy-Italic-VariableFont_wght.ttf) format(truetype);
+    font-weight: 400 700;
+    font-style: italic;
+}
+
+
+/* ----- BeauRivage ----- */
+@font-face {
+    font-family: BeauRivage;
+    src: url(BeauRivage-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+
+/* ----- Allura ----- */
+@font-face {
+    font-family: Allura;
+    src: url(Allura-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+
+/* ----- Ephesis ----- */
+@font-face {
+    font-family: Ephesis;
+    src: url(Ephesis-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+
+/* ----- MonteCarlo ----- */
+@font-face {
+    font-family: MonteCarlo;
+    src: url(MonteCarlo-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+
+/* ----- Bentham ----- */
+@font-face {
+    font-family: Bentham;
+    src: url(Bentham-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+
+/* ----- Cambo ----- */
+@font-face {
+    font-family: Cambo;
+    src: url(Cambo-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+
+/* ----- Ledger ----- */
+@font-face {
+    font-family: Ledger;
+    src: url(Ledger-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+
+/* ----- Corinthia ----- */
+@font-face {
+    font-family: Corinthia;
+    src: url(Corinthia-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Corinthia;
+    src: url(Corinthia-700Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+
+
+/* ----- KaiseiOpti ----- */
+@font-face {
+    font-family: KaiseiOpti;
+    src: url(KaiseiOpti-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+@font-face {
+    font-family: KaiseiOpti;
+    src: url(KaiseiOpti-500Medium.ttf) format(truetype);
+    font-weight: 500;
+}
+@font-face {
+    font-family: KaiseiOpti;
+    src: url(KaiseiOpti-700Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+
+
+/* ----- Abhaya ----- */
+@font-face {
+    font-family: AbhayaLibre;
+    src: url(AbhayaLibre-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+@font-face {
+    font-family: AbhayaLibre;
+    src: url(AbhayaLibre-500Medium.ttf) format(truetype);
+    font-weight: 500;
+}
+@font-face {
+    font-family: AbhayaLibre;
+    src: url(AbhayaLibre-600SemiBold.ttf) format(truetype);
+    font-weight: 600;
+}
+@font-face {
+    font-family: AbhayaLibre;
+    src: url(AbhayaLibre-700Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+@font-face {
+    font-family: AbhayaLibre;
+    src: url(AbhayaLibre-800ExtraBold.ttf) format(truetype);
+    font-weight: 800;
+}
+
+
+/* ----- Taviraj ----- */
+@font-face {
+    font-family: Taviraj;
+    src: url(Taviraj-100Thin.ttf) format(truetype);
+    font-weight: 100;
+}
+@font-face {
+    font-family: Taviraj;
+    src: url(Taviraj-200ExtraLight.ttf) format(truetype);
+    font-weight: 200;
+}
+@font-face {
+    font-family: Taviraj;
+    src: url(Taviraj-300Light.ttf) format(truetype);
+    font-weight: 300;
+}
+@font-face {
+    font-family: Taviraj;
+    src: url(Taviraj-400Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Taviraj;
+    src: url(Taviraj-500Medium.ttf) format(truetype);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Taviraj;
+    src: url(Taviraj-600SemiBold.ttf) format(truetype);
+    font-weight: 600;
+}
+@font-face {
+    font-family: Taviraj;
+    src: url(Taviraj-700Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Taviraj;
+    src: url(Taviraj-800ExtraBold.ttf) format(truetype);
+    font-weight: 800;
+}
+@font-face {
+    font-family: Taviraj;
+    src: url(Taviraj-900Black.ttf) format(truetype);
+    font-weight: 900;
+}
