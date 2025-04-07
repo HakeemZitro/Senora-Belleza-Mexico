@@ -12,8 +12,7 @@ body {
     container-type: inline-size;
     container-name: viewport;
     background-color: var(--main-text-light);
-    --header-text-color: #fff;
-    --header-text-selected: #89C1E0;
+    --header-text-selected: #cfdfff;
     --header-bg-color: #0007;
     --header-bg-color2: #000b;
     --main-text-light: #F0E5D7;
@@ -21,7 +20,6 @@ body {
     --main-text-shadow: #294A97;
     --font-style-1: 'Montserrat';
     --font-style-2: 'Corinthia';
-    --font-style-3: 'Ephesis';
     --main-bg: url(Resourses/Backgrounds/Flowers/Designer_6.jpeg);
 }
 
@@ -96,6 +94,7 @@ label.close-nav {
     font-size: clamp(1.5rem, 0.735rem + 3.265vw, 2rem);
     font-weight: 500;
     color: var(--main-text-light);
+    user-select: none;
 }
 
 .header__nav:has(.link--1:hover) .item--1 {
@@ -156,10 +155,6 @@ label.close-nav {
         border-radius: 10px;
     }
     
-    .header__item:nth-child(1) .header__link {
-        color: #89C1E0;
-    }
-    
     .header__link {
         text-decoration: none;
         font-family: var(--font-style-1);
@@ -207,11 +202,14 @@ label.close-nav {
 }
 
 .queen__grupal img {
+    display: block;
+    margin: auto;
     max-width: 100%;
     height: calc(100lvh - 64px);
     object-fit: cover;
     object-position: center;
     mask-image: linear-gradient(#000 60%, transparent 80%);
+    /*animation: group-img 1s both;*/
 }
 
 .queen__main {
@@ -571,4 +569,15 @@ body:has(.portrait-monica:hover) .monica-palomino {
         translate: 0 0;
     }
 }
+
+@keyframes group-img {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
 /* -------- END ANIMATION SECTION -------- */
