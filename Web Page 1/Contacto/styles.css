@@ -168,7 +168,7 @@ label.close-nav {
 
 /* -------- START MAIN SECTION -------- */
 .faq {
-    padding: 80px 5% 1rem 5%;
+    padding: 80px 5% 2rem 5%;
     width: 100%;
     height: 100lvh;
     display: flex;
@@ -193,7 +193,6 @@ label.close-nav {
     max-width: 1600px;
     font-family: var(--font-style-2);
     font-size: clamp(2.5rem, 1.715rem + 3.347vw, 6rem);
-    font-weight: 600;
     text-align: center;
     user-select: none;
 }
@@ -204,7 +203,7 @@ input[type="checkbox"] {
 
 .faq__question {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1440px;
     display: block;
     margin: 10px 0;
     padding: 10px;
@@ -267,19 +266,19 @@ span {
 
 /* ----- CONTACT SECTION ----- */
 .contact {
-    padding: 1rem 5%;
+    padding: 1rem 5% 2rem 5%;
     width: 100%;
     height: 100lvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     background-color: var(--main-text-light);
     color: var(--main-text-dark);
 }
 
 .contact__title {
-    margin-bottom: 2rem;
     font-family: var(--font-style-2);
     font-size: clamp(2.5rem, 1.715rem + 3.347vw, 6rem);
     text-align: center;
@@ -289,7 +288,7 @@ span {
 
 .contact__form {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1440px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:

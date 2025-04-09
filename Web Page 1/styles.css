@@ -317,6 +317,7 @@ body:has(.portrait-monica:hover) .monica-palomino {
 .portrait__container a {
     flex: 1;
     justify-items: center;
+    transition: all .75s ease;
 }
 
 .portrait__container img {
@@ -330,15 +331,12 @@ body:has(.portrait-monica:hover) .monica-palomino {
 .portrait__container a:hover {
     flex: 2;
     translate: 0 -20px;
+    transition: all .75s ease;
 }
 
 /* ----- QUERIES PORTRAIT SECTION ----- */
 @container viewport (min-width: 1024px) {
     .queen__grupal h1 {
-        bottom: 30%;
-    }
-
-    .queen__title {
         bottom: 30%;
     }
 }
@@ -428,7 +426,6 @@ body:has(.portrait-monica:hover) .monica-palomino {
     font-family: var(--font-style-1);
     font-size: 1.2rem;
     font-weight: 400;
-    font-style: italic;
     user-select: none;
 }
 
@@ -526,7 +523,7 @@ body:has(.portrait-monica:hover) .monica-palomino {
 /* -------- START ANIMATION SECTION -------- */
 @keyframes changing {
     from {
-        opacity: 0;
+        opacity: 0.01;
     }
     to {
         opacity: 1;

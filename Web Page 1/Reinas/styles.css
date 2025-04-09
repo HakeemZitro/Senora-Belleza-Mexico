@@ -167,8 +167,95 @@ label.close-nav {
 
 
 /* -------- START MAIN SECTION -------- */
+.queen {
+    padding: 80px 5% 2rem 5%;
+    width: 100%;
+    min-height: 100lvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.queen__title {
+    font-family: var(--font-style-2);
+    font-size: clamp(3rem, 2.103rem + 3.825vw, 7rem);
+    color: var(--main-text-dark);
+}
+
+.queen__grid {
+    --grid-container-width: 1440px;
+    --grid-max-col-count: 5;
+    --grid-min-col-width: 200px;
+    --grid-gap: 1rem;
+    
+    width: 100%;
+    max-width: var(--grid-container-width);
+    display: grid;
+    gap: var(--grid-gap);
 
 
+    /*Calculations, dont touch*/
+    --grid-col-size-calc: calc((var(--grid-container-width) - var(--grid-gap) * var(--grid-max-col-count)) / var(--grid-max-col-count));
+    --grid-col-min-size: min(100%, max(var(--grid-min-col-width), var(--grid-col-size-calc)));
+
+    grid-template-columns: repeat(auto-fit, minmax(var(--grid-col-min-size), 1fr));
+    grid-auto-rows: 20lvh;
+}
+
+.queen__box {
+    position: relative;
+    box-shadow: 0 0 15px 2px var(--main-text-dark);
+    transition: all .75s ease;
+}
+
+.queen__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 clamp(-60px, 50.714px + -17.857vw, -10px);
+    transition: filter .75s ease;
+}
+
+.queen__name {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    font-family: var(--font-style-2);
+    font-size: clamp(2rem, 1.235rem + 3.265vw, 2.5rem);
+    color: var(--main-text-light);
+    filter: drop-shadow(0 0 2px #000);
+}
+
+.queen__box:is(:not(:hover, :active)) {
+    box-shadow: none;
+    transition: all .75s ease;
+}
+
+.queen__box:is(:not(:hover, :active)) .queen__img {
+    filter: grayscale();
+    transition: filter .75s ease;
+}
+
+
+/* -------- QUERIES MAIN SECTION -------- */
+@container viewport (min-width: 620px) {
+    .queen__grid {
+        grid-auto-rows: 60lvh;
+    }
+
+    .queen__img {
+        object-position: top;
+    }
+
+    .queen__name {
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+}
 
 /* -------- END MAIN SECTION -------- */
 
