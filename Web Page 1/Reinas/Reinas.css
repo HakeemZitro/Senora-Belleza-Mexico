@@ -255,6 +255,24 @@ label.close-nav {
         right: 0;
         text-align: center;
     }
+
+    @container viewport (min-width: 1582px) {
+        .ana-valdivia {
+            order: 1;
+        }
+        .miriam-castillo {
+            order: 2;
+        }
+        .frida-sustaita {
+            order: 3;
+        }
+        .cecilia-gomez {
+            order: 4;
+        }
+        .monica-palomino {
+            order: 5;
+        }
+    }
 }
 
 /* -------- END MAIN SECTION -------- */

@@ -167,7 +167,68 @@ label.close-nav {
 
 
 /* -------- START MAIN SECTION -------- */
+.main {
+    padding: 80px 5% 2rem 5%;
+    width: 100%;
+    min-height: 100lvh;
+}
 
+.banner {
+    position: relative;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 200px;
+    font-family: var(--font-style-2);
+    font-size: clamp(1.3rem, 0.364rem + 4.403vw, 6rem);
+    color: var(--main-text-light);
+}
+
+.banner__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 clamp(-360px, 71.663px + -21.077vw, 0px);
+    border-radius: 2rem;
+}
+
+.banner__fname {
+    position: absolute;
+    top: clamp(30px, 89.953px + -2.927vw, 80px);
+    left: 5px;
+}
+
+.banner__lname {
+    position: absolute;
+    top: clamp(30px, 89.953px + -2.927vw, 80px);
+    right: 5px;
+}
+
+.gallery {
+    margin: auto;
+    width: 100%;
+    max-width: 1440px;
+    columns: 1;
+}
+
+.gallery__img {
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+@container viewport (min-width: 720px) {
+    .gallery {
+        columns: 2;
+    }
+
+    @container viewport (min-width: 1024px) {
+        .gallery {
+            columns: 4;
+        }
+    }
+}
 
 /* -------- END MAIN SECTION -------- */
 
